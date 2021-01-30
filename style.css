@@ -1,0 +1,206 @@
+
+html{
+	background-color: #b9a5b0;
+}
+h3{
+	color: #882b1a;
+	text-align: center;
+	font-size: 27px;
+	padding-bottom: auto;
+	font-family: 'Baumans';
+}
+strong{
+	color: black;
+}
+
+/* Navigation tab */
+.menu{
+  	background-color: #3f3f3f;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	overflow: hidden;
+}
+.menu a{
+  	color: #fae4f0;
+	float: left;
+  	text-align: center;
+  	text-decoration: none;
+  	padding: 14px 16px;
+  	font-size: 25px;
+}
+.menu a:hover{
+	color: #937285;
+}
+
+/* First container */
+.info{
+	background-color: #937285;
+	width: 30%;
+	float: left;
+	padding: 20px;
+	margin-left: 90px;
+	margin-top: 30px;
+	height: 564px;
+}
+.info img{
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	height: 300px; 
+	width: 220px
+}
+.info a{
+	color: #fbeee8;
+	text-decoration: none;
+}
+.info a:hover{
+	color: #682b33;
+}
+.information{
+	color: #fbeee8;
+	text-align: center;
+	font-size: 23px;
+	font-family: 'Baumans', serif;
+}
+
+/* Second container */
+.info2{
+	background-color: #fbeee8;
+	float: right;
+	width: 50%;
+	padding: 20px;
+	margin-top: 30px;
+	margin-right: 75px;
+}
+.info2 h2{
+	color: #8a090e;
+  	text-align: center;
+	font-size: 40px;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-family: 'Lora', serif;
+}
+.objective{
+	color: #382532;
+	text-align: center;
+	font-size: 20px;
+}
+.info2 table{
+	color: #382532;
+	width: 60%;
+	font-size: 20px;
+	text-align: left;
+}
+.info2 td{
+	height: 30px;
+}
+.info2 th{
+	color: black;
+	padding-left: 20px;
+	padding-right: 40px;
+}
+
+/* Education Container*/
+.educ{
+	background-color: #f7c9c9;
+	width: 80%;
+	height: auto;
+	float: center;
+	margin: auto;
+	margin-top: 30px;
+	margin-right: auto;
+	padding-bottom: auto;
+	box-shadow: 10px 5px 15px #3f3f3f;
+}
+.educ h3{
+	padding-top: 30px;
+}
+.educ table{
+	color: #240604;
+	text-align: left;
+	width: 90%;
+	height: 50px;
+	font-size: 21px;
+}
+.educ td{
+	height: 110px;
+}
+.level{
+	padding-right: 20px;
+}
+.logo{
+	padding-left: 15px;
+}
+
+/* Training Container*/
+.train{
+	background-color: #f7c9c9;
+	width: 80%;
+	height: auto;
+	float: center;
+	margin: auto;
+	margin-top: 30px;
+	margin-right: auto;
+	padding-bottom: 10px;
+	box-shadow: 10px 5px 15px #3f3f3f;
+}
+.train h3{
+	padding-top: 30px;
+}
+.train table{
+	text-align: left;
+	width: 90%;
+	height: 50px;
+	font-size: 21px;
+}
+.train td{
+	height: auto;
+}
+.date{
+	padding-left: 120px;
+	padding-right: auto;
+}
+
+/* Skills Container*/
+.skills{
+	background-color: #f7c9c9;
+	width: 80%;
+	height: auto;
+	float: center;
+	margin: auto;
+	margin-top: 30px;
+	margin-right: auto;
+	padding-bottom: 10px;
+	font-size: 21px;
+	box-shadow: 10px 5px 15px #3f3f3f;
+}
+.skills h3{
+	padding-top: 30px;
+}
+.skills li{
+	margin-left: 60px;
+	margin-right: 100px;
+}
+
+/* Reference Container*/
+.ref{
+	background-color: #f7c9c9;
+	width: 80%;
+	height: auto;
+	float: center;
+	margin: auto;
+	margin-top: 30px;
+	margin-right: auto;
+	padding-bottom: 10px;
+	box-shadow: 10px 5px 15px #3f3f3f;
+}
+.ref h3{
+	padding-top: 30px;
+}
+.ref p{
+	color: #0e100d;
+	text-align: left;
+	font-size: 21px;
+	margin-left: 15rem;
+}
